@@ -9,7 +9,7 @@ const JobListings = ({ isHome = false }) => {
             try {
                 const res = await fetch('http://localhost:5000/jobs')
                 const data = await res.json()
-                setJobs(isHome ? data.slice(0, 3) : data)
+                setJobs(isHome ? data.slice(-3) : data)
             } catch (error) {
                 console.log(error)
             } finally {
