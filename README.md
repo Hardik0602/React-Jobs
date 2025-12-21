@@ -1,4 +1,4 @@
-# React Jobs
+# React Jobs – A Seamless Job Search Platform for React Professionals
 
 A React-based web application designed to provide a simple and intuitive interface for browsing, adding, editing, and deleting job listings related to React and React Native roles.
 
