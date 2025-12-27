@@ -43,7 +43,6 @@ function App() {
         <Route path='/jobs' element={<JobsPage />} />
         <Route path='/job/:id' element={<JobPage deleteJob={deleteJob} />} />
         <Route path='/add-job' element={<AddJobPage addJobSubmit={addJob} />} />
-        <Route path='/jobs' element={<JobsPage />} />
         <Route path='/edit-job/:id' element={<EditJobPage updateJobSubmit={updateJob} />} />
         <Route path='*' element={<NotFound />} />
       </Route>
